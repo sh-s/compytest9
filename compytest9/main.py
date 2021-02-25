@@ -17,7 +17,7 @@ import copy
 import warnings
 
 # Find the working directory
-dir_path = os.path.dirname(os.path.realpath(__file__))
+dir_path = os.path.abspath('')
 # Change directory to the location of input file
 os.chdir(dir_path)
 
